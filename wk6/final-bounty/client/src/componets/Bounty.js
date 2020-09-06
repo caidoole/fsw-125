@@ -5,6 +5,10 @@ function Bounty(props) {
     const { firstName, lastName, living, bountyAmount, type, _id } = props
     const [editSwitch, setEditSwitch] = useState(false)
 
+    function setBountyEditable(value) {
+        setEditSwitch(value)
+    }
+
     return (
         <div className='bountyCard'>
             {!editSwitch ?
@@ -27,6 +31,7 @@ function Bounty(props) {
                         type={type}
                         _id={_id}
                         buttonText="Submit Edit"
+                        setBountyEditable={setBountyEditable}
                         submit={props.editBounty}
                     />
                     <button className='cancelEditButton'

@@ -16,10 +16,12 @@ function AddBountyForm(props) {
         const name = target.name
         setInputs(prevInputs => ({ ...prevInputs, [name]: value }))
     }
+
     function handleSubmit(e) {
         e.preventDefault()
         props.submit(inputs, props._id)
         setInputs(initInputs)
+        props.setBountyEditable(false);
     }
 
     return (

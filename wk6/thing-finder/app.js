@@ -7,4 +7,4 @@ app.use(morgan('dev'))
 
 app.use('/things', require('./routes/thingRouter'))
 
-app.listen(3001, ()=> {console.log("This bitch is up an running!!!")})
+app.listen(3001, ()=> {console.log("This is up an running!!!")})
