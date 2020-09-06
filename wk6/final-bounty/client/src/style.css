@@ -1,0 +1,106 @@
+body {
+    background-image: url(https://menysnoweballes.files.wordpress.com/2017/07/blood.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+.bannerArea{
+    border:thin solid white;
+    border-radius: 15px;
+    padding:15px;
+}
+
+.tagLine{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    float:right;
+    clear: both;
+    font-size:20px
+}
+
+.topImage {
+    display:flex;
+    flex-direction: row;
+    width:300px;
+    border: thick solid #450000;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px #450000;
+}
+
+.inputForm {
+    border: thick solid white;
+    border-radius: 5px;
+    background-color: black;
+    margin: 15px;
+}
+
+input {
+    margin: 13px;
+    font-family: 'Merienda', cursive;
+}
+
+input:hover {
+    box-shadow: 3px 6px 8px whitesmoke;
+}
+
+/* also the submit edit button */
+
+.submitButton{
+    margin:15px;
+}
+
+.submitButton:hover {
+    box-shadow: 3px 6px 8px white;
+    background-color:#013220;
+    color:white;
+}
+
+.bountyCard {
+    background-color: #450000;
+    color: white;
+    border: thin solid black;
+    border-radius: 50px;
+    box-shadow: 5px 6px 10px black;
+    margin: 15px;  
+}
+.livingBox{
+    border:thin solid black;
+    background-color:white;
+    color:black;
+    padding:2px;
+}
+
+.cancelEditButton{
+    margin:15px;
+}
+.cancelEditButton:hover{
+    background-color:red;
+    box-shadow: 3px 4px 6px black;
+}
+
+.deleteButton{
+    margin-bottom: 7px;
+    margin:15px;
+}
+.deleteButton:hover{
+    box-shadow: 3px 4px 6px black;
+}
+
+.bottomContent{
+    border:thick solid black;
+    border-radius:25px;
+    background-color:white;
+    color:black;
+}
+
+.footerImg{
+    width:100px;
+    
+}
