@@ -13,6 +13,7 @@ body {
     border:thin solid white;
     border-radius: 15px;
     padding:15px;
+    min-width:850px;
 }
 
 .tagLine{
@@ -39,6 +40,10 @@ body {
     border-radius: 5px;
     background-color: black;
     margin: 15px;
+    margin-left:200px;
+    margin-right:200px;
+    min-width:400px;
+
 }
 
 input {
@@ -49,8 +54,6 @@ input {
 input:hover {
     box-shadow: 3px 6px 8px whitesmoke;
 }
-
-/* also the submit edit button */
 
 .submitButton{
     margin:15px;
@@ -68,7 +71,11 @@ input:hover {
     border: thin solid black;
     border-radius: 50px;
     box-shadow: 5px 6px 10px black;
-    margin: 15px;  
+    margin: 15px; 
+    margin-left:200px;
+    margin-right:200px;
+    min-width:400px;
+ 
 }
 .livingBox{
     border:thin solid black;
@@ -97,7 +104,7 @@ input:hover {
     border:thick solid black;
     border-radius:25px;
     background-color:white;
-    color:black;
+    color:black;    
 }
 
 .footerImg{

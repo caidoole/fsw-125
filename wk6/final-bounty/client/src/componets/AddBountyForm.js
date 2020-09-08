@@ -3,10 +3,11 @@ import React, { useState } from 'react'
 function AddBountyForm(props) {
     const initInputs = {
         firstName: props.firstName || '',
-        lastName: props.lastName ||  '',
+        lastName: props.lastName || '',
         living: props.living || false,
-        bountyAmount: props.bountyAmount ||  '',
-        type: props.type || ''
+        bountyAmount: props.bountyAmount || '',
+        type: props.type || '',
+        isEditable: props.isEditable || false,
     }
     const [inputs, setInputs] = useState(initInputs)
 
@@ -21,7 +22,6 @@ function AddBountyForm(props) {
         e.preventDefault()
         props.submit(inputs, props._id)
         setInputs(initInputs)
-        props.setBountyEditable(false);
     }
 
     return (
@@ -42,7 +42,7 @@ function AddBountyForm(props) {
                 onChange={handleChange}
                 placeholder='Last Name'
             />
-<br />
+            <br />
             <input
                 type='number'
                 name='bountyAmount'
@@ -59,12 +59,12 @@ function AddBountyForm(props) {
                 placeholder='Jedi or Sith'
             />
             <br />
-              <label  className='livingBox'>Among The Living?</label>
+            <label className='livingBox'>Among The Living?</label>
             <input
-          
+
                 type='checkbox'
                 name='living'
-                checked= {inputs.living}
+                checked={inputs.living}
                 onChange={handleChange}
             />
             <br />

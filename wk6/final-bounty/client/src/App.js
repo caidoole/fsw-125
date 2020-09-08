@@ -22,7 +22,7 @@ function App() {
       })
       .catch(err => console.log(err))
   }
-  
+
   function deleteBounty(bountyId) {
     axios.delete(`/bounty/${bountyId}`)
       .then(res => {
@@ -39,8 +39,29 @@ function App() {
             bounty._id !== bountyId ? bounty : res.data))
       })
       .catch(err => (console.log(err)))
-  
   }
+
+  function setEdit(bountyId) {
+    let tempBounty = [...bounty]
+    let index = bounty.findIndex(x => x._id === bountyId);
+    if (tempBounty[index].isEditable === undefined || tempBounty[index].isEditable === false) {
+      tempBounty[index] = { ...tempBounty[index], isEditable: true }
+    } else {
+      tempBounty[index] = { ...tempBounty[index], isEditable: false }
+    }
+    setBounty(tempBounty)
+  }
+
+  const bountyData = bounty.map(bounty => {
+    return (
+      <Bounty {...bounty}
+        key={bounty._id}
+        deleteBounty={deleteBounty}
+        editBounty={editBounty}
+        setEdit={setEdit}
+      />
+    )
+  })
 
   useEffect(() => {
     getBounty()
@@ -49,18 +70,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-{/* <img className='topImage' src='https://i.imgur.com/v6ptCxB.jpg?1' alt='logo' /> */}
       <AddBountyForm
         submit={addBounty}
         buttonText="Add Bounty"
       />
-      {bounty.map(bounty =>
-        <Bounty {...bounty}
-          key={bounty._id}
-          deleteBounty={deleteBounty}
-          editBounty={editBounty}
-        />)}
-        <Footer />
+      {bountyData}
+      <Footer />
     </div>
   );
 }

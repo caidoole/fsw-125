@@ -1,17 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import AddBountyForm from './AddBountyForm.js'
 
 function Bounty(props) {
-    const { firstName, lastName, living, bountyAmount, type, _id } = props
-    const [editSwitch, setEditSwitch] = useState(false)
-
-    function setBountyEditable(value) {
-        setEditSwitch(value)
-    }
-
+    const { firstName, lastName, living, bountyAmount, type, _id, setEdit, isEditable } = props
     return (
         <div className='bountyCard'>
-            {!editSwitch ?
+            {!isEditable ?
                 <>
                     <h1>Name: {firstName} {lastName}</h1>
                     <h2>Living: {living !== true ? "No" : "Yes"} </h2>
@@ -19,7 +13,7 @@ function Bounty(props) {
                     <h4>Type: {type}</h4>
                     <button className='deleteButton' onClick={() => props.deleteBounty(_id)}>Remove</button>
                     <button className='editButton' 
-                    onClick={() => setEditSwitch(prevEditSwitch => !prevEditSwitch)}>Edit</button>
+                    onClick={() => setEdit(_id)}>Edit</button>
                 </>
                 :
                 <>
@@ -31,11 +25,10 @@ function Bounty(props) {
                         type={type}
                         _id={_id}
                         buttonText="Submit Edit"
-                        setBountyEditable={setBountyEditable}
                         submit={props.editBounty}
                     />
                     <button className='cancelEditButton'
-                     onClick={() => setEditSwitch(prevEditSwitch => !prevEditSwitch)}>Cancel</button>
+                     onClick={() => setEdit(_id)}>Cancel</button>
                 </>
             }
         </div>
