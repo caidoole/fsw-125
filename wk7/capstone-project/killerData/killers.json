@@ -1,0 +1,193 @@
+[
+    {
+        "_id": "8a5ae6c9-588b-41df-8e74-0b6640e96089",
+        "nickname": "H.H. Holmes",
+        "name": "Herman Mudgett",
+        "yearsActive": "1800",
+        "confirmedDeaths": "9",
+        "suspected": "200",
+        "image": "https://i1.wp.com/www.altereddimensions.net/wp-content/uploads/2015/09/image39.png",
+        "captured": true
+    },
+    {
+        "_id": "772cdebe-62cf-48bc-a248-c6ca2ab73df7",
+        "nickname": "Blood Countess",
+        "name": "Elizabeth Bathory",
+        "yearsActive": "1600",
+        "confirmedDeaths": "80",
+        "suspected": "600",
+        "image": "https://cdn.cnn.com/cnnnext/dam/assets/140812164429-blood-countess-slovakia.jpg",
+        "captured": true
+    },
+    {
+        "_id": "188a8c2e-e32a-47db-ad59-60f68865eeb3",
+        "nickname": "Night Stalker",
+        "name": "Richard Ramirez",
+        "yearsActive": "1984-1985",
+        "confirmedDeaths": "14",
+        "suspected": "24",
+        "image": "https://www.biography.com/.image/t_share/MTUxMDkzMTk4MDg3NzkxOTA2/richard_ramirez_photo_bettman_contributor_getty_images_517393144_resized.jpg",
+        "captured": true
+    },
+    {
+        "_id": "0ab0a478-95ab-407d-9539-08120b2bfc8f",
+        "nickname": "Zodiac Killer",
+        "name": "unknown",
+        "yearsActive": "1968-1969",
+        "confirmedDeaths": "7",
+        "suspected": "37",
+        "image": "https://www.theawl.com/wp-content/uploads/2014/02/0NfJq8S018RHDa3Lh.jpg",
+        "captured": false
+    },
+    {
+        "_id": "e8dc62f8-aedf-458b-a682-f82f31230b3a",
+        "nickname": "Killer Clown",
+        "name": "John Wayne Gacy",
+        "yearsActive": "1972-1978",
+        "confirmedDeaths": "33",
+        "suspected": "",
+        "image": "https://cdn.historycollection.com/wp-content/uploads/2017/08/Untitled-1-13.jpg",
+        "captured": true
+    },
+    {
+        "_id": "bf9ebb35-8930-42c7-8134-cc662a97df26",
+        "nickname": "Green River Killer",
+        "name": "Gary Leon Ridway",
+        "yearsActive": "1982-2001",
+        "confirmedDeaths": "75",
+        "suspected": "80",
+        "image": "https://cbsnews1.cbsistatic.com/hub/i/r/2003/11/06/4671e1a4-a642-11e2-a3f0-029118418759/thumbnail/1200x630/e61e16b2c01d943d8206c2721e3293d0/image582220.jpg",
+        "captured": true
+    },
+    {
+        "_id": "5d00ac61-829e-4d93-bc76-47412ee4a5bc",
+        "nickname": "BTK (Bind, Torture, Kill)",
+        "name": "Dennis Lynn Rader",
+        "yearsActive": "1974-1991",
+        "confirmedDeaths": "10",
+        "suspected": "",
+        "image": "https://i2.wp.com/heavy.com/wp-content/uploads/2020/05/BTK-e1590849261977.jpg",
+        "captured": true
+    },
+    {
+        "_id": "0c1df841-12a8-458f-94b6-5cc60bfade9c",
+        "nickname": "Axeman of New Orleans",
+        "name": "unknown",
+        "yearsActive": "1917-1919",
+        "confirmedDeaths": "7",
+        "suspected": "14",
+        "image": "https://pbs.twimg.com/media/CnAQQWrWgAETu-C.jpg",
+        "captured": false
+    },
+    {
+        "_id": "dc327bca-bb0f-41e6-bfa5-b6889359a6ca",
+        "nickname": "The Poughkeepsie Killer",
+        "name": "Kendall Francois",
+        "yearsActive": "1996-1998",
+        "confirmedDeaths": "8",
+        "suspected": "10",
+        "image": "https://i.ytimg.com/vi/Dhtlgk_4Zjo/hqdefault.jpg",
+        "captured": true
+    },
+    {
+        "_id": "15a1d0da-e76d-44cc-ab8e-9fe22ddab836",
+        "nickname": "Butcher Of Rostov",
+        "name": "Andrei Romanovich Chikatilo",
+        "yearsActive": "1978-1990",
+        "confirmedDeaths": "52",
+        "suspected": "",
+        "image": "https://filmdaily.co/wp-content/uploads/2020/04/Andrei-Chikatilo-1.jpg",
+        "captured": true
+    },
+    {
+        "_id": "4e18b060-848b-4d39-9d8c-2f9daa3a0b02",
+        "nickname": "Sadist of Chanquito",
+        "name": "Daniel Camargo Barbosa ",
+        "yearsActive": "1974-1986",
+        "confirmedDeaths": "72",
+        "suspected": "150",
+        "image": "https://bigmemes.funnyjunk.com/pictures/Top_65a857_5473850.jpg",
+        "captured": true
+    },
+    {
+        "_id": "0b4639cc-d4c9-477d-a524-fdcc39c9e919",
+        "nickname": "Freeway Killer",
+        "name": "William George Bonin",
+        "yearsActive": "1974-1980",
+        "confirmedDeaths": "14",
+        "suspected": "21",
+        "image": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/05/william-bonin-normal-clothing.jpg",
+        "captured": true
+    }, 
+    {
+        "_id": "068e26f1-c3d1-4e90-a4c1-3247018d44b2",
+        "nickname": "Spokane Serial Killer",
+        "name": "Robert Lee Yates",
+        "yearsActive": "1975-1998",
+        "confirmedDeaths": "16",
+        "suspected": "18",
+        "image": "https://www.monstersandcritics.com/wp-content/uploads/2018/06/Robert-Lee-Yates-spokane-serial-killer.jpg",
+        "captured": true
+    },
+    {
+        "_id": "bd08e42a-32fa-4c6b-ae4e-706005666f97",
+        "nickname": "Choke and Stroke Killer",
+        "name": "Samuel Little (McDowell)",
+        "yearsActive": "1970-2005",
+        "confirmedDeaths": "50",
+        "suspected": "93",
+        "image": "https://media4.s-nbcnews.com/j/newscms/2019_22/2661876/181128-samuel-little-odessa-texas-ew-1126a_d251526623d485d708b1a20a48149a8b.social_share_1024x768_scale.jpg",
+        "captured": true
+    },
+    {
+        "_id": "b4a7f1d2-c923-45b7-9a90-947f27b21da9",
+        "nickname": "Dr. Death",
+        "name": "Harold Shipman",
+        "yearsActive": "1975-1998",
+        "confirmedDeaths": "218",
+        "suspected": "250",
+        "image": "https://www.sunsigns.org/famousbirthdays/d/images/pics/harold-shipman-0.jpg",
+        "captured": true
+    },
+    {
+        "_id": "73b24f43-40eb-46f3-abb2-e8782b9353fd",
+        "nickname": "Hell's Belle",
+        "name": "Belle Gunness",
+        "yearsActive": "1884-1908",
+        "confirmedDeaths": "14",
+        "suspected": "40",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Belle_gunness_br_d_640068a.jpg/224px-Belle_gunness_br_d_640068a.jpg",
+        "captured": false
+    },
+    {
+        "_id": "05fccca0-ea5c-4231-965b-19e82d69c0e2",
+        "nickname": "Butcher Of Plainfield",
+        "name": "Edward Theodore Gein",
+        "yearsActive": "1957",
+        "confirmedDeaths": "2",
+        "suspected": "9",
+        "image": "https://miro.medium.com/max/475/1*Vl4KWOvesaSJntegsueqCQ.jpeg",
+        "captured": true
+    },
+    {
+        "_id": "1b2567ac-afc5-4d9d-9ce4-a8ca5b083e26",
+        "nickname": "Boy Torturer",
+        "name": "Jesse Pomeroy",
+        "yearsActive": "1871-1874",
+        "confirmedDeaths": "2",
+        "suspected": "9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Jesse_Pomeroy.gif",
+        "captured": true
+    },
+    {
+        "_id": "9883f4a7-95da-40c5-85cd-1817b7eda34c",
+        "nickname": "Milwaukee Cannibal",
+        "name": "Jeffery Lionel Dahmer",
+        "yearsActive": "1978-1991",
+        "confirmedDeaths": "17",
+        "suspected": "",
+        "image": "https://userscontent2.emaze.com/images/c05b3208-074b-4b61-8a15-40cce481174c/20129487239acb6998e91c305c9fe005.jpg",
+        "captured": true
+    }
+  
+]

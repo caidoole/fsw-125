@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+}
+
+body {
+    background-color: #08457e;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.header {
+
+    margin: 25px;
+    border: thin solid black;
+    background-color: whitesmoke;
+    border: thick solid silver;
+    border-radius: 50px;
+    box-shadow: 1px 2px 3px black;
+    text-align: center;
+}
+
+.logo {
+    height: 200px;
+    margin: 25px;
+    float: left;
+    border: thick solid silver;
+    border-radius: 50px;
+}
+
+.logo:hover {
+    box-shadow: 3px 4px 5px silver;
+}
+
+.title {
+    margin: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 15px;
+    border: 3px solid silver;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 6px 10px black;
+}
+
+.link {
+    margin: 15px;
+    font-size: 20px;
+    border: thin solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.link:hover {
+    box-shadow: 2px 3px 5px black;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+}
+
+.factsTitle {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.factSheet {
+    text-align: left;
+    margin: 20px;
+}
+
+li {
+    margin: 5px;
+}
+
+li:hover {
+    text-decoration: underline white;
+}
+
+.images {
+    height: 300px;
+    border: thin solid silver;
+    border-radius: 25px;
+    box-shadow: 3px 4px 10px black;
+    margin: 15px;
+}
+
+.images:hover {
+    box-shadow: 4px 5px 12px black;
+}
+
+input {
+    font-family: 'Cinzel', serif;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+input:hover {
+    box-shadow: 3px 4px 6px grey;
+}
+
+label {
+    border: thin solid black;
+    padding: 3px;
+    margin: 5px;
+    background-color: white;
+    color: grey;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    border: thin solid #08457e;
+    border-radius: 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+button:hover {
+    box-shadow: 3px 4px 6px black;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: row;
+}
+
+.formTitle {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.inputKiller {
+    border: thick solid black;
+    margin: 25px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 6px 7px 10px black;
+}
+
+.editKiller {
+    border: thin solid#08457e;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+    background-color: whitesmoke;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.pageTitle {
+    text-align: center;
+    color: white;
+}
+
+.killerCards {
+    border: thick solid black;
+    border-radius: 35px;
+    padding: 15px;
+    margin: 25px;
+    background-color: whitesmoke;
+    box-shadow: 3px 4px 10px silver;
+    text-align: center;
+}
+
+.killerCards:hover {
+    box-shadow: 4px 6px 12px black;
+}
+
+.fa {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.fa:hover {
+    color: blueviolet;
+}
+
+.footer {
+    margin: 15px;
+    padding: 10px;
+    border: thin solid silver;
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 6px 10px black;
+}
